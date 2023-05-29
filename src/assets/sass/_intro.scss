@@ -1,0 +1,41 @@
+.intro {
+  position: relative;
+  padding: 1rem 2rem;
+  height: 100vh;
+  background-color: #141718;
+
+  &_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &_info {
+    margin-right: 2rem;
+  }
+
+  &_title {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: #fefefe;
+  }
+
+  &_text {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 1.5rem;
+    letter-spacing: -0.02em;
+    color: rgba(232, 236, 239, 0.5);
+  }
+
+  
+
+  &_img {
+    margin-top: 4rem;
+    img {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,61 @@
+@media (max-width: 991px) {
+  .intro {
+    padding: 1rem;
+    &_info {
+      display: none;
+    }
+
+    &_wrapper {
+      justify-content: center;
+    }
+  }
+
+  .sign {
+    &_or {
+      &::after,
+      &::before {
+        width: 120px;
+      }
+    }
+  }
+}
+
+@media (max-width: 720px) {
+    .container {
+        padding: 0;
+    }
+
+    .intro {
+        padding: 0;
+    }
+
+  .sign {
+    width: 100%;
+    height: 100vh;
+    border-radius: 5px;
+    &_info {
+        margin-top: 9rem;
+    }
+
+    &_auth {
+      button {
+        width: 310px;
+      }
+    }
+    &_toggle {
+      width: 310px;
+    }
+
+    &_input {
+      input {
+        width: 310px;
+      }
+    }
+
+    &_up_btn {
+      button {
+        width: 310px;
+      }
+    }
+  }
+}
